@@ -10,10 +10,9 @@ import { defineConfig } from "@lovable.dev/vite-tanstack-config";
 // @cloudflare/vite-plugin builds from this — wrangler.jsonc main alone is insufficient.
 export default defineConfig({
   vite:{
-    base:"/blue-portfolio-studio/",
+    base:"/Richie-portfolio/",
   },
   
-
   tanstackStart: {
     server: { entry: "server" },
   },
